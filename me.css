@@ -217,7 +217,7 @@ body.page-template-page-fullsingle-me {
   -webkit-animation: fadein 8s;
           animation: fadein 8s; }
   .credit p {
-    font-size: 12px;
+    font-size: 12px !important;
     line-height: 14px;
     font-weight: 400;
     opacity: 0.4; }
