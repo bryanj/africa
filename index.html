@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>브라이언은 지금..</title>
+
+    <meta property="og:title" content="브라이언은 지금..">
+    <meta property="og:description" content="브라이언은 지금 어디에서 무엇을 하고 있을까요?">
+    <meta property="og:image" content="https://bryanj.github.io/africa/images/default.jpg">
+    <meta property="og:url" content="https://bryanj.github.io/africa/">
+    <meta name="twitter:title" content="브라이언은 지금..">
+    <meta name="twitter:description" content="브라이언은 지금 어디에서 무엇을 하고 있을까요?">
+    <meta name="twitter:image" content="https://bryanj.github.io/africa/images/default.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="stylesheet" href="me.css" type="text/css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  </head>
+
+  <body id="fullsingle" class="page-template-page-fullsingle-me">
+
+    <div class="fs-me">
+
+      <div class="me-content">
+
+        <div class="logo">
+          브라이언은 지금..
+        </div>
+
+        <div class="bio">
+          <p id="description"></p>
+
+        </div>
+
+        <div class="network">
+          <p id="time">2018-08-28 00:00:00</p>
+        </div>
+
+        <div class="credit">
+
+          <p>&copy;2018 Seunghyun Jo - <a href="https://onepagelove.com/me">Me Template</a> by <a href="https://onepagelove.com">One Page Love</a></p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="data.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        var time = new Date();
+        list.some(function(item) {
+          if (time >= new Date(item.from) && time <= new Date(item.to)) {
+            var country = country_map[item.country];
+            var description = country.name + country.flag + "에서 " + item.description + " 😆";
+            $("#description").text(description);
+            $("body").css("background-image", "url(\"images/" + item.background + ".jpg\")");
+            var setTime = function() {
+              var time = new Date();
+              time.setHours(time.getHours() + country.timezone);
+              var timeString = time.toISOString().split(".")[0].replace("T", " ");
+              $("#time").text(timeString);
+            };
+            setTime();
+            setInterval(setTime, 1000);
+            return true;
+          }
+          return false;
+        });
+      });
+    </script>
+
+  </body>
+</html>
