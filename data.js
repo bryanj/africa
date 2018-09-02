@@ -17,5 +17,7 @@ var list = [
   {"from": "2018-09-02 14:30+0300", "to": "2018-09-02 14:55+0300", "country": "TZ", "description": "다르에스살람으로 향하는 비행기를 타고 있습니다", "background": "flight2"},
   {"from": "2018-09-02 14:55+0300", "to": "2018-09-02 17:30+0300", "country": "TZ", "description": "케냐로 향하는 비행기를 기다리고 있습니다", "background": "dar"},
   {"from": "2018-09-02 17:30+0300", "to": "2018-09-02 18:50+0300", "country": "TZ", "description": "나이로비로 향하는 비행기를 타고 있습니다", "background": "kenya"},
-  {"from": "2018-09-02 18:50+0300", "to": "2018-09-03 09:00+0300", "country": "KE", "description": "마사이마라 사파리를 기대하며 쉬고 있습니다", "background": "nairobi"}
+  {"from": "2018-09-02 18:50+0300", "to": "2018-09-03 09:00+0300", "country": "KE", "description": "마사이마라 사파리를 기대하며 쉬고 있습니다", "background": "nairobi"},
+  {"from": "2018-09-03 09:00+0300", "to": "2018-09-05 21:00+0300", "country": "KE", "description": "마사이마라의 동물들과 아이컨택 중입니다", "background": "masaimara"},
+  {"from": "2018-09-05 21:00+0300", "to": "2018-09-06 09:00+0300", "country": "KE", "description": "내일을 기대하며 숙소에서 쉬고 있습니다", "background": "nairobi"}
 ];
