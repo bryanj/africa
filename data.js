@@ -52,5 +52,22 @@ var list = [
   {"from": "2018-09-19 09:00+0200", "to": "2018-09-19 18:00+0200", "country": "BW", "description": "배를 타고 오카방고 델타를 돌아다니고 있습니다", "background": "okavango"},
   {"from": "2018-09-19 18:00+0200", "to": "2018-09-20 00:00+0200", "country": "BW", "description": "나미비아로 이동할 준비를 하고 있습니다", "background": "maun"},
   {"from": "2018-09-20 00:00+0200", "to": "2018-09-20 12:00+0200", "country": "BW", "description": "나미비아로 이동하고 있습니다", "background": "road"},
-  {"from": "2018-09-20 12:00+0200", "to": "2018-09-21 09:00+0200", "country": "NA", "description": "빈트후크의 숙소에서 쉬고 있습니다", "background": "windhoek"}
+  {"from": "2018-09-20 12:00+0200", "to": "2018-09-21 09:00+0200", "country": "NA", "description": "빈트후크의 숙소에서 쉬고 있습니다", "background": "windhoek"},
+  {"from": "2018-09-21 09:00+0200", "to": "2018-09-22 18:00+0200", "country": "NA", "description": "소서스블레이의 환상적인 풍경을 감상하고 있습니다", "background": "sossusvlei"},
+  {"from": "2018-09-22 18:00+0200", "to": "2018-09-24 09:00+0200", "country": "NA", "description": "스와코프문트의 다양한 액티비티를 즐기고 있습니다", "background": "swakopmund"},
+  {"from": "2018-09-24 09:00+0200", "to": "2018-09-26 18:00+0200", "country": "NA", "description": "에토샤의 다양한 동물을 만나고 있습니다", "background": "etosha"},
+  {"from": "2018-09-26 18:00+0200", "to": "2018-09-28 12:00+0200", "country": "NA", "description": "빈트후크를 돌아다니고 있습니다", "background": "windhoek"},
+  {"from": "2018-09-28 12:00+0200", "to": "2018-09-28 14:20+0200", "country": "NA", "description": "아디스아바바로 향하는 비행기를 기다리고 있습니다", "background": "wdh"},
+  {"from": "2018-09-28 14:20+0200", "to": "2018-09-28 21:10+0300", "country": "NA", "description": "아디스아바바로 향하는 비행기를 타고 있습니다", "background": "ethiopian"},
+  {"from": "2018-09-28 21:10+0300", "to": "2018-09-29 09:00+0300", "country": "ET", "description": "아디스아바바의 숙소에서 쉬고 있습니다", "background": "addisababa"},
+  {"from": "2018-09-29 09:00+0300", "to": "2018-09-29 18:00+0300", "country": "ET", "description": "아디스아바바를 돌아다니고 있습니다", "background": "addisababa"},
+  {"from": "2018-09-29 18:00+0300", "to": "2018-09-30 06:00+0300", "country": "ET", "description": "다나킬로 이동할 준비를 하고 있습니다", "background": "addisababa"},
+  {"from": "2018-09-30 06:00+0300", "to": "2018-09-30 07:00+0300", "country": "ET", "description": "메켈레로 향하는 비행기를 기다리고 있습니다", "background": "add"},
+  {"from": "2018-09-30 07:00+0300", "to": "2018-09-30 08:10+0300", "country": "ET", "description": "메켈레로 향하는 비행기를 타고 있습니다", "background": "ethiopian"},
+  {"from": "2018-09-30 08:10+0300", "to": "2018-10-02 17:00+0300", "country": "ET", "description": "다나킬의 환상적인 풍경을 감상하고 있습니다", "background": "danakil"},
+  {"from": "2018-10-02 17:00+0300", "to": "2018-10-02 19:05+0300", "country": "ET", "description": "아디스아바바로 향하는 비행기를 기다리고 있습니다", "background": "dhc8"},
+  {"from": "2018-10-02 19:05+0300", "to": "2018-10-02 20:30+0300", "country": "ET", "description": "아디스아바바로 향하는 비행기를 타고 있습니다", "background": "ethiopian"},
+  {"from": "2018-10-02 20:30+0300", "to": "2018-10-02 23:15+0300", "country": "ET", "description": "한국으로 돌아가는 비행기를 기다리고 있습니다", "background": "add"},
+  {"from": "2018-10-02 23:15+0300", "to": "2018-10-03 16:55+0900", "country": "ET", "description": "한국으로 돌아가는 비행기를 타고 있습니다", "background": "ethiopian"},
+  {"from": "2018-10-03 16:55+0900", "to": "9999-12-31 00:00+0900", "country": "KR", "description": "다시 아프리카에 갈 날을 꿈꾸고 있습니다", "background": "default"}
 ];
